@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D7CA3802C7231B89721C1BE /* libPods-MBProgressHUD+ZCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAAF3029CC5C0DEF517CA6F /* libPods-MBProgressHUD+ZCTests.a */; };
+		55E1D9D0094F2183E0FCF492 /* libPods-MBProgressHUD+ZC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4ABB6917A072E15C8ECA35 /* libPods-MBProgressHUD+ZC.a */; };
 		966AAA3A19C968190005CB62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 966AAA3919C968190005CB62 /* main.m */; };
 		966AAA3D19C968190005CB62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 966AAA3C19C968190005CB62 /* AppDelegate.m */; };
 		966AAA4019C968190005CB62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 966AAA3F19C968190005CB62 /* ViewController.m */; };
@@ -30,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17B53852C45F40CD3E61FA44 /* Pods-MBProgressHUD+ZCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBProgressHUD+ZCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBProgressHUD+ZCTests/Pods-MBProgressHUD+ZCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F5B8CEC19C94E6A862EA554 /* Pods-MBProgressHUD+ZC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBProgressHUD+ZC.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBProgressHUD+ZC/Pods-MBProgressHUD+ZC.release.xcconfig"; sourceTree = "<group>"; };
+		7FAAF3029CC5C0DEF517CA6F /* libPods-MBProgressHUD+ZCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MBProgressHUD+ZCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		966AAA3419C968190005CB62 /* MBProgressHUD+ZC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MBProgressHUD+ZC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		966AAA3819C968190005CB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		966AAA3919C968190005CB62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -48,6 +53,9 @@
 		966AAA6019C969050005CB62 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		966AAA6119C969050005CB62 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		966AAA6219C969050005CB62 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		AC1D6BEC62D13EA3060E07EB /* Pods-MBProgressHUD+ZC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBProgressHUD+ZC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBProgressHUD+ZC/Pods-MBProgressHUD+ZC.debug.xcconfig"; sourceTree = "<group>"; };
+		BFC661C0C206813B723DC19F /* Pods-MBProgressHUD+ZCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBProgressHUD+ZCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBProgressHUD+ZCTests/Pods-MBProgressHUD+ZCTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA4ABB6917A072E15C8ECA35 /* libPods-MBProgressHUD+ZC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MBProgressHUD+ZC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55E1D9D0094F2183E0FCF492 /* libPods-MBProgressHUD+ZC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,18 +71,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7CA3802C7231B89721C1BE /* libPods-MBProgressHUD+ZCTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38E385104228A904DC5BD81E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC1D6BEC62D13EA3060E07EB /* Pods-MBProgressHUD+ZC.debug.xcconfig */,
+				7F5B8CEC19C94E6A862EA554 /* Pods-MBProgressHUD+ZC.release.xcconfig */,
+				17B53852C45F40CD3E61FA44 /* Pods-MBProgressHUD+ZCTests.debug.xcconfig */,
+				BFC661C0C206813B723DC19F /* Pods-MBProgressHUD+ZCTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		890D18D83D24302C5375F17B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA4ABB6917A072E15C8ECA35 /* libPods-MBProgressHUD+ZC.a */,
+				7FAAF3029CC5C0DEF517CA6F /* libPods-MBProgressHUD+ZCTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		966AAA2B19C968190005CB62 = {
 			isa = PBXGroup;
 			children = (
 				966AAA3619C968190005CB62 /* MBProgressHUD+ZC */,
 				966AAA5019C968190005CB62 /* MBProgressHUD+ZCTests */,
 				966AAA3519C968190005CB62 /* Products */,
+				38E385104228A904DC5BD81E /* Pods */,
+				890D18D83D24302C5375F17B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 966AAA5719C968190005CB62 /* Build configuration list for PBXNativeTarget "MBProgressHUD+ZC" */;
 			buildPhases = (
+				F8D0F7E892002B24D607C7EA /* [CP] Check Pods Manifest.lock */,
 				966AAA3019C968190005CB62 /* Sources */,
 				966AAA3119C968190005CB62 /* Frameworks */,
 				966AAA3219C968190005CB62 /* Resources */,
+				7463B40C0F2A61B35D765604 /* [CP] Embed Pods Frameworks */,
+				09551FBA4A34617842DCB9F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 966AAA5A19C968190005CB62 /* Build configuration list for PBXNativeTarget "MBProgressHUD+ZCTests" */;
 			buildPhases = (
+				88518DBAFFE7B502A771FCC6 /* [CP] Check Pods Manifest.lock */,
 				966AAA4919C968190005CB62 /* Sources */,
 				966AAA4A19C968190005CB62 /* Frameworks */,
 				966AAA4B19C968190005CB62 /* Resources */,
+				C0F42409F4138DBDD65C31BC /* [CP] Embed Pods Frameworks */,
+				D31C78CCD95C7E0404EE8765 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +273,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09551FBA4A34617842DCB9F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBProgressHUD+ZC/Pods-MBProgressHUD+ZC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7463B40C0F2A61B35D765604 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBProgressHUD+ZC/Pods-MBProgressHUD+ZC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88518DBAFFE7B502A771FCC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0F42409F4138DBDD65C31BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBProgressHUD+ZCTests/Pods-MBProgressHUD+ZCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D31C78CCD95C7E0404EE8765 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBProgressHUD+ZCTests/Pods-MBProgressHUD+ZCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8D0F7E892002B24D607C7EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		966AAA3019C968190005CB62 /* Sources */ = {
@@ -365,6 +496,7 @@
 		};
 		966AAA5819C968190005CB62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC1D6BEC62D13EA3060E07EB /* Pods-MBProgressHUD+ZC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "MBProgressHUD+ZC/Info.plist";
@@ -377,6 +509,7 @@
 		};
 		966AAA5919C968190005CB62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5B8CEC19C94E6A862EA554 /* Pods-MBProgressHUD+ZC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "MBProgressHUD+ZC/Info.plist";
@@ -389,6 +522,7 @@
 		};
 		966AAA5B19C968190005CB62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B53852C45F40CD3E61FA44 /* Pods-MBProgressHUD+ZCTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -408,6 +542,7 @@
 		};
 		966AAA5C19C968190005CB62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC661C0C206813B723DC19F /* Pods-MBProgressHUD+ZCTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
